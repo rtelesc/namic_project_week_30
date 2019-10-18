@@ -4,6 +4,11 @@ kind: Deployment
 metadata:
   name: dcm4chee
   namespace: default
+
+kind: Pod 
+apiVersion: v1 
+metadata:
+  name: pod-dcm4chee 
 spec:
   replicas: 1
   template:
